@@ -16,6 +16,9 @@
 		text-align: center;
 		margin-top: 10%;
 	}
+	#modal{
+		visibility:hidden;
+	}
 </style>
 
 	<section>
@@ -28,7 +31,16 @@
 		<div id="warning1"></div>
 		<br>
 		<button onclick="myFunction4(); myFunction5()" >Submit</button>
-	</section>	
+	</section>
+
+	<section>
+		<div id="modal">
+			<div id="show-email"></div>
+			<div id="show-pass"></div>
+		</div>
+
+	</section>
+
 <script>
 function myFunction4() {
   var email = document.getElementById("email").value;
@@ -53,5 +65,16 @@ function myFunction5(){
 	}
 }
 </script>
+
+<!--<script>-->
+<!--	if(myFunction4()== true && myFunction5()== true){-->
+<!--		document.getElementById("modal").showModal("modal");-->
+<!--		document.getElementById("show-email").innerHTML="Email ban da nhap la:"+email.value;-->
+<!--		document.getElementById("show-pass").innerHTML="Password ban da nhap la:"+password.value;-->
+<!--	} else{-->
+<!--		modal.hide("modal");-->
+<!--	}-->
+<!--</script>-->
+
 </body>
 </html>
