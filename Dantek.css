@@ -1,0 +1,131 @@
+.container-fluid {
+    background-color: #C5D2D3;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+ 
+.container {
+    padding-bottom: 5em;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+
+.row .img {
+    text-align: center;
+}
+
+.row .services {
+    margin-top: 5%;
+}
+
+.row .partners {
+    margin-top: 5%;
+}
+
+.row .services img {
+    width: 30%;
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+.row p {
+    text-align: center;
+    margin-bottom: 15%;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.container .row .img1 {
+    background-color: #38C3C7;
+    padding-bottom: 2.5px;
+}
+
+.container .row .img2 {
+    background-color: #C73B38;
+    padding-bottom: 8px;
+}
+
+.container .row .img3 {
+    background-color: #CB7035;
+    padding-bottom: 2px;
+}
+
+.container .row .img4 {
+    background-color: #358FC9;
+}
+
+.row .partners img {
+    width: 70%;
+    margin-top: 10%;
+}
+
+.partners-logo {
+    background-color: #9FB8BA;
+    position: absolute;
+    padding-left: 15%;
+    padding-bottom: 7%;
+}
+
+.row .partners .line2 {
+    clear: both;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.row .partners .fix1 {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.row .partners .fix2 {
+    margin-top: 7%;
+    text-align: center;
+}
+
+.row .partners .fix3 {
+    text-align: center;
+}
+
+.row .partners .fix4 {
+    text-align: center;
+    margin-left: -21%;
+}
+
+.line1 {
+    padding-top: 18%;
+}
+
+@media screen and (max-width: 768px) {
+    .container-fluid {
+        height: 70em;
+    }
+    .services {
+        margin-left: 10%;
+    }
+    .services h2 {
+        margin-left: -12%;
+    }
+    .services p {
+        font-size: 12.4px;
+    }
+    .services .img1 p {
+        margin-bottom: 23.6px;
+    } 
+    .partners {
+        margin-left: 8%;
+    }
+    .partners h2 {
+        margin-top: 20%;
+    }
+    .partners img {
+        margin-left: -60%;
+    }
+    .row .partners .fix4 {
+        left: 35%;
+        margin-top: -10%;
+    } 
+}
